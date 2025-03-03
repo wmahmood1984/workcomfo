@@ -1,0 +1,39 @@
+.language-selector {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .language-selector h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .language-selector ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .language-selector li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .language-selector li:hover {
+    background: #f0f0f0;
+  }
+  
+  .flag {
+    font-size: 24px;
+  }
+  
+  .language-name {
+    flex-grow: 1;
+  }
+  
